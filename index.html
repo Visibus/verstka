@@ -3,8 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>Заголовок страницы</title>
-  </head>
-  <style>
+    <style type="text/css">
+      .block1 { 
+       width: 200px; 
+       background: #ccc;
+       padding: 5px;
+       padding-right: 20px; 
+       border: solid 1px black; 
+       float: left;
+      }
       aside {
        background: #f0f0f0;
        padding: 10px;
@@ -15,8 +22,24 @@
        margin-right: 240px;
        display: block;
       }
-     </style>
+      header {
+      background-color: #FD739C;
+      color: #fff;
+      font-family: Arial, Helvetica, sans-serif;      
+      }
+      h1, h2 {
+      font-family: Arial, Helvetica, sans-serif;
+      }
+      body {
+      font-size: 22px;
+      line-height: 34px;
+      } 
+     </style>      
+  </head>
   <body>
+      <header>
+          <h1>Уроки по верстке</h1>
+        </header>    
     <aside>
         <p>Группа D</p>
         <p>Группа F</p>
@@ -50,5 +73,8 @@
         преподнесла одну из главных сенсаций турнира, заставив Германию перестать быть действующим чемпионом мира.
         </p>
      </section>
+     <div class="block1">Lorem ipsum dolor sit amet, consectetuer 
+        adipiscing elit, sed diem nonummy nibh euismod tincidunt ut lacreet 
+        dolore magna aliguam erat volutpat.</div>
   </body>
 </html>
