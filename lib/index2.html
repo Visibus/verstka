@@ -13,7 +13,7 @@
     border: 1px solid #333; /* Параметры рамки */ 
    }
    .text {
-    height: 1000px;
+    height: 500px;
    }
   </style>
  </head>
@@ -21,4 +21,45 @@
   <div class="menu">Меню</div>
   <div class="text"></div>
  </body>
+ <table>
+    <caption>Monthly Budget</caption>
+    <thead>
+        <tr>
+            <th scope="col">Month</th>
+            <th scope="col">Amount Earned</th>
+            <th scope="col">Amount Spent</th>
+            <th scope="col">Amount Saved</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">January</th>
+            <td>$2500</td>
+            <td>$1500</td>
+            <td>$500</td>
+        </tr>
+        <tr>
+            <th scope="row">February</th>
+            <td>$2700</td>
+            <td>$1500</td>
+            <td>$700</td>
+        </tr>
+    </tbody>
+</table>
+<form>
+    <label for="your-name">
+      Your Name:
+      <input type="text" id="your-name" name="your-name" placeholder="What's your name?">
+    </label>
+    <input type="submit" value="Submit Name">
+  </form>
+
+  <form>
+    <label for="your-name">
+      Your Name:
+    </label>
+    <input type="number" name="age" id="your-name" placeholder="Enter 1 to 150" aria-required="true">
+    <input type="submit" value="Submit Name">
+  </form>
+
 </html>
